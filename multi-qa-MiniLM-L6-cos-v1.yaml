@@ -6,10 +6,10 @@ description: |
     Bert model that can be used for embeddings
 config_file: |
     parameters:
-      model: ggml-model-f32.bin
+      model: ggml-model-f32-qa-MiniLM-L6-cos-v1.bin
     backend: bert-embeddings
     embeddings: true
 files:
-- filename: "ggml-model-f32.bin"
+- filename: "ggml-model-f32-qa-MiniLM-L6-cos-v1.bin"
   sha256: "ee39302693649b79b09a119215c12bef0b24dc6ea8542c8b3e8615b5dbcbba68"
   uri: "https://huggingface.co/skeskinen/ggml/resolve/main/multi-qa-MiniLM-L6-cos-v1/ggml-model-f32.bin"
